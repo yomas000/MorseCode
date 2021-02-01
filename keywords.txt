@@ -1,5 +1,5 @@
-   Dates   KEYWORD1
-   IsLeapYear   KEYWORD2
-   GetEaster   KEYWORD2
+   Morse   KEYWORD1
+   dot   KEYWORD2
+   dash   KEYWORD2
    ####
    #Keyword1 (classes), keyword2 (functions in class)
