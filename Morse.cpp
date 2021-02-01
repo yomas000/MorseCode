@@ -23,3 +23,10 @@ void Morse::dash()
   digitalWrite(_pin, LOW);
   delay(250);
 }
+
+void Morse::sos(){
+  dot(); dot(); dot();
+  dash(); dash(); dash();
+  dot(); dot(); dot();
+}
+  
