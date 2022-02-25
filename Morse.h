@@ -9,6 +9,7 @@ class Morse
     Morse(int pin);
     void dot();
     void dash();
+    void sos();
   private:
     int _pin;
 };

@@ -5,7 +5,7 @@
 Morse::Morse(int pin) //this says what should happen when someone creates and instence of this class
 {
   pinMode(pin, OUTPUT);
-  _pin = pin;
+  _pin = pin; //this changes it from a public variable to a private variable (pin = public, _pin = private)
 }
 
 void Morse::dot()
@@ -23,3 +23,10 @@ void Morse::dash()
   digitalWrite(_pin, LOW);
   delay(250);
 }
+
+void Morse::sos(){
+  dot(); dot(); dot();
+  dash(); dash(); dash();
+  dot(); dot(); dot();
+}
+  
